@@ -147,11 +147,11 @@
     <PackageReference Include="Xamarin.Essentials" Version="1.3.1" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\..\Features.CountOfNames.UWP\Features.CountOfNames.UWP.csproj">
+    <ProjectReference Include="..\..\Features\CountofNames\Features.CountOfNames.UWP\Features.CountOfNames.UWP.csproj">
       <Project>{93a17b8a-bc49-4209-a2b3-32dafaa22bfb}</Project>
       <Name>Features.CountOfNames.UWP</Name>
     </ProjectReference>
-    <ProjectReference Include="..\..\Features.ListOfNames.UWP\Features.ListOfNames.UWP.csproj">
+    <ProjectReference Include="..\..\Features\ListOfNames\Features.ListOfNames.UWP\Features.ListOfNames.UWP.csproj">
       <Project>{ec35ef7d-9c19-44e2-9ee7-6ac2b1d3a122}</Project>
       <Name>Features.ListOfNames.UWP</Name>
     </ProjectReference>
