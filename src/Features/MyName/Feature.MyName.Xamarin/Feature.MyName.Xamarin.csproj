@@ -10,7 +10,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\..\App.Shared\App.Shared.csproj" />
+    <ProjectReference Include="..\..\..\ITOps\App.Shared\App.Shared.csproj" />
     <ProjectReference Include="..\Feature.MyName\Feature.MyName.csproj" />
   </ItemGroup>
 

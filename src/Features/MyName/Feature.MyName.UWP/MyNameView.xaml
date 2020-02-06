@@ -5,11 +5,15 @@
     xmlns:local="using:Feature.MyName.UWP"
     xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:res="using:App.Shared.Globalisation"
     mc:Ignorable="d" >
+    <UserControl.Resources>
+        <res:Translator x:Key="Translator" />
+    </UserControl.Resources>
 
     <StackPanel>
-        <TextBox x:Name="MyNameText" Header="Type your name" />
-        <Button Content="Submit!" Margin="0,10" Command="{Binding SubmitMyNameCommand}" CommandParameter="{Binding ElementName=MyNameText, Path=Text}" />
+        <TextBox x:Name="MyNameText" Header="{Binding [TypeYourName], Source={StaticResource Translator}}" />
+        <Button Content="{Binding [Submit], Source={StaticResource Translator}}" Margin="0,10" Command="{Binding SubmitMyNameCommand}" CommandParameter="{Binding ElementName=MyNameText, Path=Text}" />
         <TextBlock Text="{Binding TheName}" />
     </StackPanel>
 </UserControl>

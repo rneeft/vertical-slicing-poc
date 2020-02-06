@@ -97,20 +97,6 @@
     <Folder Include="Resources\drawable\" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\..\MyName\Feature.MyName.Xamarin\Feature.MyName.Xamarin.csproj">
-      <Project>{f712ed05-5e99-481f-a986-c2cd01bdd91d}</Project>
-      <Name>Feature.MyName.Xamarin</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\..\MyName\Feature.MyName\Feature.MyName.csproj">
-      <Project>{3f94b654-c7c8-4418-a160-0cc7ddbb14b6}</Project>
-      <Name>Feature.MyName</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\App4\App4.csproj">
-      <Project>{6D9EB51B-7C32-44D7-BF29-48BA1BF38F9F}</Project>
-      <Name>App4</Name>
-    </ProjectReference>
-  </ItemGroup>
-  <ItemGroup>
     <EmbeddedResource Include="Views\MainPageView.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
@@ -119,6 +105,20 @@
     <EmbeddedResource Include="App.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\Features\MyName\Feature.MyName.Xamarin\Feature.MyName.Xamarin.csproj">
+      <Project>{be0b6618-b962-4d13-87b1-e67d5b2ce504}</Project>
+      <Name>Feature.MyName.Xamarin</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\Features\MyName\Feature.MyName\Feature.MyName.csproj">
+      <Project>{1d42ffde-ac37-4e05-80bf-7d198eabf103}</Project>
+      <Name>Feature.MyName</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\ITOps\App4\App4.csproj">
+      <Project>{4f55ab31-1797-4bbd-8903-a6b5f7536972}</Project>
+      <Name>App4</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\Android\Xamarin.Android.CSharp.targets" />
 </Project>

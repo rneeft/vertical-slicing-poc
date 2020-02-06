@@ -25,9 +25,9 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\..\App.Shared\App.Shared.csproj" />
-    <ProjectReference Include="..\..\Features.CountOfNames\Features.CountOfNames.csproj" />
-    <ProjectReference Include="..\..\Features.ListOfNames\Features.ListOfNames.csproj" />
-    <ProjectReference Include="..\..\MyName\Feature.MyName\Feature.MyName.csproj" />
+    <ProjectReference Include="..\..\Features\CountofNames\Features.CountOfNames\Features.CountOfNames.csproj" />
+    <ProjectReference Include="..\..\Features\ListOfNames\Features.ListOfNames\Features.ListOfNames.csproj" />
+    <ProjectReference Include="..\..\Features\MyName\Feature.MyName\Feature.MyName.csproj" />
+    <ProjectReference Include="..\App.Shared\App.Shared.csproj" />
   </ItemGroup>
 </Project>

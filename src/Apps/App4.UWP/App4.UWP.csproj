@@ -155,16 +155,16 @@
       <Project>{ec35ef7d-9c19-44e2-9ee7-6ac2b1d3a122}</Project>
       <Name>Features.ListOfNames.UWP</Name>
     </ProjectReference>
-    <ProjectReference Include="..\..\MyName\Feature.MyName.UWP\Feature.MyName.UWP.csproj">
+    <ProjectReference Include="..\..\Features\MyName\Feature.MyName.UWP\Feature.MyName.UWP.csproj">
       <Project>{ccd40673-2c7c-422e-8cb0-3bf27d3577f3}</Project>
       <Name>Feature.MyName.UWP</Name>
     </ProjectReference>
-    <ProjectReference Include="..\..\MyName\Feature.MyName\Feature.MyName.csproj">
-      <Project>{3f94b654-c7c8-4418-a160-0cc7ddbb14b6}</Project>
+    <ProjectReference Include="..\..\Features\MyName\Feature.MyName\Feature.MyName.csproj">
+      <Project>{1d42ffde-ac37-4e05-80bf-7d198eabf103}</Project>
       <Name>Feature.MyName</Name>
     </ProjectReference>
-    <ProjectReference Include="..\App4\App4.csproj">
-      <Project>{6D9EB51B-7C32-44D7-BF29-48BA1BF38F9F}</Project>
+    <ProjectReference Include="..\..\ITOps\App4\App4.csproj">
+      <Project>{4f55ab31-1797-4bbd-8903-a6b5f7536972}</Project>
       <Name>App4</Name>
     </ProjectReference>
   </ItemGroup>

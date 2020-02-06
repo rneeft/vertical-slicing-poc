@@ -4,6 +4,7 @@ using System.IO;
 using System.Reflection;
 using System.Threading.Tasks;
 using App.Shared;
+using App.Shared.Globalisation;
 using Feature.MyName;
 using Features.CountOfNames;
 using Features.ListOfNames;
@@ -41,6 +42,8 @@ namespace App4
                    o.DisableColors = true;
                }))
                 .Build();
+
+            ResourceManager.AddTranslation(Feature.MyName.Languages.String);
 
             ServiceProviderContainer.ServiceProvider = host.Services;
         }

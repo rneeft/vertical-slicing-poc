@@ -5,7 +5,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\App.Shared\App.Shared.csproj" />
+    <ProjectReference Include="..\..\..\ITOps\App.Shared\App.Shared.csproj" />
   </ItemGroup>
 
 </Project>

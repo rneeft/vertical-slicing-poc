@@ -138,8 +138,8 @@
     </Page>
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\App.Shared\App.Shared.csproj">
-      <Project>{C7FF8E9A-89E8-44FD-87AB-A4BD1B28828E}</Project>
+    <ProjectReference Include="..\..\..\ITOps\App.Shared\App.Shared.csproj">
+      <Project>{4a5fc34d-c802-4b1d-a5ef-b61e4d5a6519}</Project>
       <Name>App.Shared</Name>
     </ProjectReference>
     <ProjectReference Include="..\Features.CountOfNames\Features.CountOfNames.csproj">
